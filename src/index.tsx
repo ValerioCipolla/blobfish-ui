@@ -1,21 +1,15 @@
 import * as React from "react";
-import "./style.css"
-
-const { useState } = React
+import "./styles.scss"
 
 interface CounterProps {
   name: string;
 }
 
-const Counter: React.FC<CounterProps> = ({ name }) => {
-  const [count, setCount] = useState(0);
+const Counter: React.FC<CounterProps> = () => {
 
   return (
     <>
-      <p className="red-text">Name: {name}</p>
-      <p className="red-text">Count: {count}</p>
-      <button onClick={() => setCount(count - 1)}>-</button>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <h1 className="red-text">hello</h1>
     </>
   );
 };
