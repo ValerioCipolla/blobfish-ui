@@ -1,3 +1,3 @@
 # blobfish-ui
 
-Playground Open Source UI library built with TypeScript.
+Playground Open Source react UI library built with TypeScript
