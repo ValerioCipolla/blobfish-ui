@@ -83,7 +83,7 @@ How to test the component to see what it looks like?
 4. Enter the `example` folder by running `cd example`
 5. Install dependencies `npm i`
 6. Link library to this folder by running `npm link blobfish-ui`
-7. Import and use component inside `App.tsx`
+7. Import and use component inside `example/src/App.tsx`
 8. Run `npm start` and you will be able to see component on the page
 
 If you make changes to the component and you want to see the changes remember to re-build the library.
