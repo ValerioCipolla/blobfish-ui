@@ -8,7 +8,7 @@ Open Source Project for beginners. A playground UI library published on npm to p
 - [Docs](#docs)
 - [Contributing to blobsfish ui](#contributing-to-blobfish-ui)
 - [Development](#development)
-- [Creators & Contributor](#creators--contributors)
+- [Creators & Contributors](#creators--contributors)
 
 # Installation and Usage
 
