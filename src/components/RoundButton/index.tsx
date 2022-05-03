@@ -5,11 +5,11 @@ interface RoundButtonProps {
   label: string;
 }
 
-export const RoundButton: React.FC<RoundButtonProps> = ({ label, text }) => {
+export const RoundButton: React.FC<RoundButtonProps> = ({ label }) => {
 
   return (
     <>
-      <button className="round-button">{label} {text}</button>
+      <button className="round-button">{label}</button>
     </>
   );
 };
