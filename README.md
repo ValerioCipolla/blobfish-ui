@@ -1,6 +1,6 @@
 # blobfish-ui
 
-Open Source Project for beginners. A playground UI library published on npm to practice creating componets on React with TypeScript.
+Open Source Project for beginners. A playground UI library published on npm to practice creating components with React and TypeScript.
 
 # Table of contents
 
