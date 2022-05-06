@@ -4,11 +4,16 @@ Open Source Project for beginners. A playground UI library published on npm to p
 
 # Table of contents
 
-- [Installation & Usage](#installation--usage)
+- [blobfish-ui](#blobfish-ui)
+- [Table of contents](#table-of-contents)
+- [Installation and Usage](#installation-and-usage)
 - [Docs](#docs)
-- [Contributing to blobsfish ui](#contributing-to-blobfish-ui)
-- [Development](#development)
-- [Creators & Contributors](#creators--contributors)
+  - [RoundButton](#roundbutton)
+  - [SquareButton](#squarebutton)
+  - [Input](#input)
+  - [Contributing to blobfish ui](#contributing-to-blobfish-ui)
+  - [Development](#development)
+  - [Creators & Contributors](#creators--contributors)
 
 # Installation and Usage
 
@@ -34,6 +39,7 @@ Use the components where you need them
 
 - [RoundButton](#roundbutton)
 - [SquareButton](#squarebutton)
+- [Input](#input)
 
 ## RoundButton
 
@@ -54,6 +60,20 @@ Usage:
 ```
 
 `<SquareButton>` is a square button with fixed height and width of 100px. It needs one prop `label` which is the text that will be displayed inside the button.
+
+## Input
+
+Usage:
+
+```js
+<Input placeholder="Type something here" />
+```
+
+`<Input>` is an input element defaulted to `type="text"`. It needs one prop `placeholder` which is the text that prompts the user to enter data. Regular HTML `input` attributes can still be passed down as props. For example:
+
+```js
+<Input placeholder="Type something here" size="10"/>
+```
 
 ## Contributing to blobfish ui
 
